@@ -1,0 +1,10 @@
+sources:
+  - name: raw
+    database: IVS_ANALYTICS_DWH
+    schema: raw
+    tables:
+      - name: expenditure_by_industry
+      - name: itinerary
+      - name: survey_main_header
+      - name: transform_method
+      - name: visitors_satisfaction
