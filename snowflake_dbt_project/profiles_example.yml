@@ -1,9 +1,9 @@
 snowflake_dbt_project:
   outputs:
     dev:
-      account: RIEDGEY-QHB34599
+      account: ******************
       database: IVS_ANALYTICS_DWH
-      password: Vishjdesai@0506
+      password: *****************
       role: ACCOUNTADMIN
       schema: raw
       threads: 1
