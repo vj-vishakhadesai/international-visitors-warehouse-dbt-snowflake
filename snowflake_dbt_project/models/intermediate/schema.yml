@@ -1,0 +1,11 @@
+models:
+  - name: int_transport_method
+    description: "Table describes the transport information"
+    columns: 
+      - name: RESPONSE_ID
+        data_tests: 
+          - not_null
+          - unique:
+              config:
+                severity: warn
+      - name: TRANSPORT_METHOD
