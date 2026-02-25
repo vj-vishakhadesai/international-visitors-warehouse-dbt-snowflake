@@ -1,0 +1,13 @@
+snowflake_dbt_project:
+  outputs:
+    dev:
+      account: ******************
+      database: IVS_ANALYTICS_DWH
+      password: *****************
+      role: ACCOUNTADMIN
+      schema: raw
+      threads: 1
+      type: snowflake
+      user: VISHAKHADESAI
+      warehouse: COMPUTE_WH
+  target: dev
