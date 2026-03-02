@@ -2,6 +2,7 @@
 End-to-end data engineering project that transforms International Visitor Survey data into a dimensional data warehouse using Snowflake and dbt. Implements medallion architecture, incremental models, and production-style OBT, fact and dimension design.
 
 Project Struture :
+```text
 international-visitors-warehouse-dbt-snowflake/
   README.md                                # Project overview and instructions
   main.py                                  # Main Python script 
